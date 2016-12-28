@@ -8,7 +8,7 @@ Summary:	OpenStack Sphinx extensions
 Summary(pl.UTF-8):	Rozszerzenia modułu Sphinx z projektu OpenStack
 Name:		python-oslosphinx
 Version:	4.3.0
-Release:	1
+Release:	2
 License:	Apache v2.0
 Group:		Development/Languages/Python
 #Source0Download: https://pypi.python.org/simple/oslosphinx/
