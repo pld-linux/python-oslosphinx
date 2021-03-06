@@ -9,7 +9,7 @@ Summary:	OpenStack Sphinx extensions
 Summary(pl.UTF-8):	Rozszerzenia modułu Sphinx z projektu OpenStack
 Name:		python-oslosphinx
 Version:	4.18.0
-Release:	1
+Release:	2
 License:	Apache v2.0
 Group:		Development/Languages/Python
 #Source0Download: https://pypi.python.org/simple/oslosphinx/
@@ -46,6 +46,7 @@ BuildRequires:	python3-reno >= 2.5.0
 BuildRequires:	sphinx-pdg-3 >= 1.6.2
 %endif
 Requires:	python-modules >= 1:2.7
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
